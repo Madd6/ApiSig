@@ -56,8 +56,8 @@ app.post("/getSekolah", urlp , async (req, res)=>{
     }
 })
 
-const port = 8640
-app.listen(port, () => {
-    console.log(`API Berjalan Di Port: localhost:${port}`)
-})
-// module.exports = app;
+// const port = 8640
+// app.listen(port, () => {
+//     console.log(`API Berjalan Di Port: localhost:${port}`)
+// })
+module.exports = app;
